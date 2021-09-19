@@ -38,6 +38,7 @@ main h1 {
     border-radius: 50px;
     margin-top: 1.2rem;
 }
+
 .bottom-container {
     width: 100%;
     margin-top: 10rem;
@@ -76,4 +77,97 @@ main h1 {
 .product-container-box p {
     margin-top: 1rem;
 }
+
+/* Portrait and Landscape (IPAD) */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .left-container h3 {
+        justify-content: left;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-container-box {
+        width: 74%;
+        margin-left: 0;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .product-container-box p {
+        text-align: left;
+        margin-left: 2rem;
+    }
+}
+
+
+/* Portrait (IPHONE) */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-container {
+        justify-content: center;
+        width: 90%;
+        margin: 1rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+
+    .right-container {
+        display: none;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        justify-content: center;
+    }
+
+    .left-container h3 {
+        justify-content: left;
+    }
+
+    .product-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-container-box {
+        width: 96%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    .product-container-box p {
+        text-align: left;
+    }
+}
+
 

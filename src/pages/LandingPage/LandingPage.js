@@ -21,7 +21,6 @@ export default function LandingPage() {
                 </div>
                 <div className="bottom-container">
                     <h3>What I do</h3>
-
                     <div className="product-container">
                         <div className="product-container-box">
                             <img src={coding}/>
