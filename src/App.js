@@ -10,6 +10,7 @@ import NavigationBar from "./components/NavigationBar/NavigationBar";
 
 //pages
 import LandingPage from "./pages/LandingPage/LandingPage";
+import PortfolioPage from "./pages/PortfolioPage/PortfolioPage";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
                 <Switch>
                     <Route exact path="/">
                         <LandingPage/>
+                    </Route>
+                    <Route exact path="/portfolio">
+                        <PortfolioPage />
                     </Route>
                 </Switch>
             </Router>
