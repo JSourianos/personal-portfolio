@@ -11,9 +11,7 @@ export default function NavigationBar() {
         <div className="links">
             <li><Link className="link" to="/portfolio">Portfolio</Link>
             </li>
-            <li className="header-link"><Link className="link" to="/">Github</Link>
-            </li>
-            <li className="header-link"><Link className="link" to="/">Contact</Link>
+            <li className="header-link"><Link className="link" to="/contact">Contact</Link>
             </li>
         </div>
     </>;
