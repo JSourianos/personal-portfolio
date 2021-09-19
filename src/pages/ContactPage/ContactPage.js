@@ -5,6 +5,7 @@ import "./ContactPage.css"
 import github from "../../assets/github-logo-silhouette-in-a-square.png";
 import linkedIn from "../../assets/linkedin.png"
 
+
 export default function ContactPage() {
     return (
         <>
@@ -18,8 +19,8 @@ export default function ContactPage() {
                         You can also send me a message on <strong>Github</strong>, or link with me on <strong>LinkedIn!</strong>
                     </p>
                     <div className="contact-container-images">
-                        <a href="https://github.com/JSourianos"><img src={github} alt="Github Logo"/></a>
-                        <a href="https://www.linkedin.com/in/thomas-j-sourianos-597398192/"><img src={linkedIn} alt="Github Logo"/></a>
+                        <a href="https://github.com/JSourianos" target="_blank"><img src={github} alt="Github Logo"/></a>
+                        <a href="https://www.linkedin.com/in/thomas-j-sourianos-597398192/" target="_blank"><img src={linkedIn} alt="Github Logo"/></a>
                     </div>
                 </div>
             </div>

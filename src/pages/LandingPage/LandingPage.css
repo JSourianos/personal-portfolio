@@ -17,7 +17,7 @@ main h3 {
 main h1 {
     margin: 0;
     padding: 0;
-
+    font-weight: 500;
 }
 
 .left-container {
@@ -32,11 +32,12 @@ main h1 {
     border-radius: 20px;
 }
 
-img {
+.right-container img {
     width: 157px;
     height: 160px;
+    border-radius: 50px;
+    margin-top: 1.2rem;
 }
-
 .bottom-container {
     width: 100%;
     margin-top: 10rem;
