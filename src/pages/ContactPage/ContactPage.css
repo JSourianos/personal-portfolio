@@ -27,3 +27,34 @@
     margin-top: 1.2rem;
 }
 
+/* Portrait and Landscape (IPAD) */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait (IPHONE) */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    .portfolio-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .portfolio-container-left {
+        width: 90%;
+        margin: .5rem;
+        padding: 0;
+    }
+    .portfolio-container-left h3 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+}
+
