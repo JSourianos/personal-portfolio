@@ -34,14 +34,14 @@ const projectInfo = [
     desc:
       "This project was a huge group project in collaboration with BR!GHT, which is a Norwegian based company that sells solar-powered lamps to poor countries in Africa.\n" +
       "\n" +
-      "We used React Native to create an this application. UX was a big part of the solution, as we had to adjust for the possibility that people might not know how to read. We solved this with tons of user testing, and designed the app in such a way that you wouldn’t need to know how to read to use it.",
+      "We used React Native to create this application. UX was a big part of the solution, as we had to adjust for the possibility that people might not know how to read. We solved this with tons of user testing, and designed the app in such a way that you wouldn’t need to know how to read to use it.",
     image: Bright,
     url: "https://github.com/Ammar1992-MK/pro201-smidigprosjekt",
   },
   {
     title: "GreekBook, Web Development Exam",
     desc:
-      "This project was a solo exam, where I created a small application that allows you to register a user with Google, and enter the chat application. The app allows for chatting, with a group chat and private chat. The library that was used for chatting was Socket.io, and the entire app was written with React, using hooks.\n" +
+      "This project was a solo exam, where I created a small application that allows you to register a user with Google, and enter the application. The app allows for chatting, with a group chat and private chat. The library that was used for chatting was Socket.io, and the entire app was written with React, using hooks.\n" +
       "\n" +
       "This app also has testing in it, where Jest was the technology used for writing tests.",
     image: GreekBook,

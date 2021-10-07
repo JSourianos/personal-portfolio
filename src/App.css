@@ -41,7 +41,7 @@ p {
 }
 
 .App {
-  background-color: aliceblue;
+  background-color: rgb(240, 248, 255);
   width: 60%;
   margin: 5rem auto 0;
   border-top-left-radius: 50px;
