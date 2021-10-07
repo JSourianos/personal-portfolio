@@ -2,6 +2,7 @@ import profileImage from "../../assets/profileimage.JPG";
 import coding from "../../assets/web-programming.png";
 import design from "../../assets/web-design.png";
 import business from "../../assets/briefcase.png";
+import profileImage2 from "../../assets/profileimage_copy.jpg";
 
 import "./LandingPage.css"
 
@@ -16,7 +17,7 @@ export default function LandingPage() {
                             Høyskolen Kristiania</h1>
                     </div>
                     <div className="right-container">
-                        <img src={profileImage}/>
+                        <img src={profileImage2}/>
                     </div>
                 </div>
                 <div className="bottom-container">

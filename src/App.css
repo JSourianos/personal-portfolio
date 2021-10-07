@@ -1,64 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    background: #DCE35B; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #45B649, #DCE35B); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100%;
-
+  background: #dce35b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #45b649,
+    #dce35b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #45b649,
+    #dce35b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
 }
 
-h3, h4 {
-    font-family: 'Merriweather', serif;
-    color: #464242;
-    font-weight: 900;
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  color: #464242;
+  font-weight: 900;
 }
 
 h1 {
-    font-family: 'Montserrat', serif;
-    font-size: 40px;
-    color: #464242;
+  font-family: "Montserrat", serif;
+  font-size: 40px;
+  color: #464242;
 }
 
 p {
-    font-family: 'Montserrat', serif;
-    color: #464242;
+  font-family: "Montserrat", serif;
+  color: #464242;
 }
 
 .App {
-    background-color: aliceblue;
-    width: 60%;
-    margin: 5rem auto 0;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    box-shadow: 3px 3px 15px 5px rgba(6, 6, 6, 0.25);
+  background-color: aliceblue;
+  width: 60%;
+  margin: 5rem auto 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 3px 3px 15px 5px rgba(6, 6, 6, 0.25);
 }
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
-    .App {
-        width: 100%;
-    }
+@media only screen and (max-width: 1440px) {
+  .App {
+    width: 80%;
+  }
 }
 
-/* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
-    .App {
-        width: 100%;
-    }
+@media only screen and (max-width: 1200px) {
+  .App {
+    width: 80%;
+  }
 }
 
+@media only screen and (max-width: 1024px) {
+  .App {
+    width: 100%;
+  }
+}
