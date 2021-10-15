@@ -18,7 +18,11 @@ export default function LandingPage() {
             </h1>
           </div>
           <div className="right-container">
-            <img src={profileImage2} />
+            <img
+              src={
+                "https://user-images.githubusercontent.com/36825493/137535089-6e8f9b8c-fc38-45bd-97b6-bd4bed55f69b.jpgç"
+              }
+            />
           </div>
         </div>
         <div className="bottom-container">
